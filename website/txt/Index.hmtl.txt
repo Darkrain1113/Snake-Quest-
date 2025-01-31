@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Quest - The Ultimate Adventure</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #282525;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Banner image at the top */
+        .banner {
+            width: 100vw;
+            height: 825px;
+            background-image: url('images/girl.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #dd2d2d;
+            text-align: center;
+            font-size: 2em;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        .banner h1 {
+            font-size: 3.5em;
+            margin: 0;
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #dd2d2d;
+        }
+
+        .banner p {
+            font-size: 1.2em;
+            font-style: italic;
+            margin: 5px 0 0;
+            color: #dd2d2d;
+        }
+
+        /* Content container */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            color: #dd2d2d;
+        }
+
+        .description {
+            font-size: 1.2em;
+            line-height: 1.5em;
+            margin-bottom: 20px;
+            color: #dd2d2d;
+        }
+
+        /* Styling for Descend into the Dark section */
+        .gameplay {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+            text-align: center;
+            color: #dd2d2d;
+            position: relative;
+        }
+
+        /* Image styling for the dragon */
+        .gameplay img.dragon {
+            width: 700px;
+            height: auto;
+            margin-bottom: 20px;
+            object-fit: contain;
+        }
+
+        .gameplay h1 {
+            font-size: 2em;
+            margin: 0;
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            color: #ec3535;
+            margin-top: 20px;
+        }
+
+        /* Paragraph styling */
+        .gameplay p {
+            max-width: 600px;
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #c82b2b;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Styling for knight image positioned lower and to the right */
+        .knight-container {
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .knight-container img.knight {
+            width: 400px;
+            height: auto;
+            object-fit: contain;
+            margin-right: 20px; /* Optional: space from the right edge */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner Image Section -->
+    <div class="banner">
+        <h1>Snake Quest</h1>
+        <p>The Ultimate Adventure Awaits</p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <div class="description">
+            <p>Venture into the shadowed wilds in Snake Quest, where ancient secrets and lurking perils await. Command your serpent through treacherous paths, seize forbidden treasures, and evade deadly traps that lie in wait to ensnare the unwary</p>
+            <p>Are you ready to become the ultimate snake master?</p>
+        </div>
+        
+        <!-- Descend into the Dark Section -->
+        <div class="gameplay">
+            <img src="images/dragon.png" alt="Image of a dragon" class="dragon">
+            <h1>Descend into the Dark</h1>
+            <p>"Beneath a fading world lies a vast, ancient realm. Many are drawn to its depths, seeking treasure, glory, or answers to forgotten secrets."</p>
+        </div>
+
+        <!-- Knight image positioned lower and to the right -->
+        <div class="knight-container">
+            <img src="images/knight.png" alt="Image of a knight" class="knight">
+        
+        
+        </div>
+    
+    <h1>Face the Unknown...<h1>
+
+
+    
+      
+</body>
+</html>

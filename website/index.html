@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Quest - The Ultimate Adventure</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #282525;
+            color: #dd2d2d;
+        }
+
+        /* Banner image at the top */
+        .banner {
+            width: 100vw; /* viewpoint for girl.png*/
+            height: 800px;
+            background-image: url('images/girl.png');
+            background-size: cover; /* Fills the entire width without black bars */
+            background-position: center; 
+            display: flex; 
+            justify-content: center; /*horzianltaly centered */
+            text-align: center; /* SNAKE QUEST center txt*/
+            flex-direction: column;/*vertically centered */
+            
+           
+        }
+
+        .banner h1 {
+            font-size: 7em;
+            margin: 0;
+            font-family: 'Georgia', serif;
+            text-transform: uppercase; /* for SNAKEQUEST Font <h1> */
+            color: #dd2d2d;
+          
+        }
+
+        .banner p {
+            font-size: 2em; 
+            font-style: italic;/* The Ultimate Adventure Awaits font <p>*/
+            margin: 6px 0 0;
+            color: #dd2d2d;
+            
+        }
+
+        /* Content container */
+        .container {
+            max-width: 1000px;
+            padding: 20px;
+            text-align: center;
+            color: #dd2d2d;
+            margin: auto; /*for centering ALL text */
+        }
+
+        .description {
+            font-size: 1.2em;
+            line-height: 1.5em;
+           
+        }
+
+        /* Styling for Descend into the Dark section */
+        .gameplay {
+            display: flex;
+            flex-direction: column; /*colums for assets*/
+            align-items: center;
+            text-align: center;
+            color: #dd2d2d;
+           
+        }
+
+        .gameplay img.dragon {
+            width: 700px;
+        }
+
+        .gameplay h1 {
+            font-size: 2.5em;
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            color: #ec3535;
+          
+          
+        }
+
+        /* Paragraph styling */
+        .gameplay p {
+            max-width: 600px;
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #c82b2b;
+            text-align: center;
+        
+        }
+
+        /* Knight image positioned lower and to the right */
+        .knight-container img.knight{
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            width: 400px;
+       
+        }
+
+
+
+       
+           
+        /* Face the Unknown section styling */
+        .description2 {
+            font-size: 1.2em;
+            line-height: 1.6em;
+            color: #dd2d2d;
+            text-align: center;
+            
+          
+            
+        }
+
+        .description2 h1 {
+            font-size: 2.5em;
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            color: #ec3535;
+            
+        }
+        .nextpage.html {
+            font-size: 2.5em;
+            
+         }
+
+        
+    </style>
+</head>
+<body>
+
+    <!-- Banner Image Section -->
+    <div class="banner">
+        <h1>Snake Quest</h1>
+        <p>The Ultimate Adventure Awaits</p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <div class="description">
+            <p>Venture into the shadowed wilds in Snake Quest, where ancient secrets and lurking perils await. Command your serpent through treacherous paths, seize forbidden treasures, and evade deadly traps that lie in wait to ensnare the unwary.</p>
+            <p>Are you ready to discover the forgotton serects to this land?</p>
+        </div>
+        
+        <!-- Descend into the Dark Section -->
+        <div class="gameplay">
+            <img src="images/dragon.png" class="dragon">
+            <h1>Descend into the Dark</h1>
+            <p>"Beneath a fading world lies a vast, ancient realm. Many are drawn to its depths, seeking treasure, glory, or answers to forgotten secrets."</p>
+        </div>
+
+        <!-- Knight image positioned lower and to the right -->
+        <div class="knight-container">
+            <img src="images/knight.png"  class="knight">
+        </div>
+
+        
+        
+        <!-- Face the Unknown Section -->
+        <div class="description2">
+            <h1>Face the Unknown...</h1>
+            <p>Snake Quest is a challenging 2D Metroidvania/platformer.</p>  
+            <p>Which you will Embark on a journey through Treacherous Dungeons and crawl through winding Labyrinths.</p>
+            <p>Where battle-hardened creatures guard their secrets fiercely. Uncover clues and face challenges to unravel an ancient, long-hidden mystery.</p>
+        </div>
+        
+        
+        <div class="nextpage.html">
+            <a href="nextpage.html" class="next-page-btn">Next Page</a> <!--next-page-btn--> 
+</body>
+</html>
